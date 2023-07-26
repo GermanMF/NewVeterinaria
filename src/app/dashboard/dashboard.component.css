@@ -1,16 +1,28 @@
 .sidenav-container {
   height: 100vh;
+  /*background-color: #317B22;*/
 }
 
 .sidenav-content {
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;*/
+  /*justify-content: center;*/
 }
 
 .sidenav-size {
   padding: 50px;
+  background-color: #CCCCCC;
 }
 
-.toolbar-height {
+.toolbar-properties {
   height: 100px;
+  /*background-color: #205016;*/
+}
+
+.logo-toolbar{
+  width: auto;
+  height: 75px;
+}
+
+.container-full{
+  max-width: inherit;
 }

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {DashboardComponent} from "./dashboard.component";
 import {RouterModule, Routes} from "@angular/router";
 import {MainComponent} from "./pages/main/main.component";
@@ -14,10 +14,10 @@ const routes: Routes = [
     path: '',
     component: MainComponent
   },
-  {
-    path: 'propietarios',
-    loadChildren: () => import('./pages/propietarios/propietarios.module').then((module) => module.PropietariosModule)
-  }
+  // {
+  //   path: 'propietarios',
+  //   loadChildren: () => import('./pages/propietarios/propietarios.module').then((module) => module.PropietariosModule)
+  // }
 ]
 
 @NgModule({
@@ -30,6 +30,7 @@ const routes: Routes = [
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    NgOptimizedImage,
   ],
   exports: [DashboardComponent]
 })

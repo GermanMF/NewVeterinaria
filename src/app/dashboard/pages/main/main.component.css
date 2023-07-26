@@ -11,14 +11,21 @@ p{
   font-size: 4em;
 }
 
+.title1row { margin-top: 10%}
+
 .title2 {
   font-size: 8em;
+  white-space: normal;
+  display: contents;
 }
 
 .title1, .title2 {
+  /*color: #2196f3;*/
   font-family: 'paytoneone', sans-serif;
 }
 
 .size-icon {
+  /*color: #2196f3;*/
+  color: #EE6123;
   transform: scale(4);
 }
