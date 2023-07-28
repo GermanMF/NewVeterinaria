@@ -26,6 +26,14 @@ p{
 
 .size-icon {
   /*color: #2196f3;*/
-  color: #EE6123;
+  color: #552C2C;
   transform: scale(4);
+}
+
+.image-group {
+  margin-top: 7%;
+}
+
+.rounded-image {
+  border-radius: 50%;
 }

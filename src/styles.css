@@ -1,9 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/*mat-body {*/
+/*  font-family: figtree, paytoneone, sans-serif;*/
+/*}*/
+
+:root{
+  --bs-link-color: #053c6b;
+  /*--mdc-typography-button-font-family: figtree*/;
+  --bs-body-font-family: figtree, sans-serif;
+}
+
+a:hover {
+  color: #F2532D;
+}
 
 @font-face {
   font-family: paytoneone;
   src: url(assets/fonts/PaytoneOne-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: figtree;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format("opentype");
 }

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {MatIconModule} from '@angular/material/icon';
 import {MainComponent} from "./main.component";
 
@@ -10,6 +10,7 @@ import {MainComponent} from "./main.component";
   imports: [
     CommonModule,
     MatIconModule,
+    NgOptimizedImage,
   ],
   exports: [MainComponent]
 })
